@@ -1,0 +1,20 @@
+﻿1-Installer Eclipse C/C++
+2-Installer Mingw
+3-Installer Espressif(DevKit v2.1.0) sûrement depuis le dépôt de M. PERDRIAU
+4-Installer Sming(v3.2.0) dans le dossier Espressif "C:\Espressif"
+5-Installer Python (v2.7.14)
+6-Installer Git
+7-Aller dans : Panneau de configuration\Tous les Panneaux de configuration\Système
+8-Cliquer dans le menu latéral sur "Paramètres système avancés"
+9-Dans la nouvelle fenêtre, cliquer sur le bouton "Variables d'environnement"
+10-Dans "Variables système", cliquer sur la ligne "Path", puis sur le bouton "Modifier..."
+11-Dans la nouvelle fenêtre, cliquer sur le bouton "Nouveau" (à recommencer pour chaque chemin suivant)
+12-Ajouter les chemins "C:\MinGW\bin", "C:\MinGW\msys\1.0\bin", "C:\Espressif\Sming\Sming\esptool2" et "C:\Python27"
+13-Remonter "C:\MinGW\bin" et "C:\MinGW\msys\1.0\bin" en tête de liste
+14-Ouvrir Eclipse avec le workspace souhaité
+15-Clic droit dans "Project Explorer", puis cliquer sur "Import..."
+16-Dans l'aborescence "General", cliquer sur "Existing Projects into Workspace"
+17-Cliquer sur le bouton "Browse..." et sélectionner le chemin "C:\Espressif\Sming\Sming"
+18-Cliquer sur le bouton "Finish"
+19-Dans le menu latéral droit, dans l'onglet "Make Target", dérouler le projet "SmingFramework" et cliquer sur "All"
+20-Pour importer un exemple, importer un nouveau projet, mais sélectionner "C:\Espressif\Sming\samples\(projet de votre choix)"
